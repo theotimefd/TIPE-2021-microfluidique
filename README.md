@@ -60,8 +60,7 @@ Comment prédire et contrôler différentes propriétés de l'écoulement d'un f
 2. Réaliser un canal d'échelle micrométrique
 3. Mettre un évidence l'écoulement laminaire dans ce canal
 4. arriver a faire un canal assez petit
-5. Etude du cas particulier d'un intersection de deux canaux en forme de Y
-6. Etude des équivalences entre circuits microfluidiques et circuits électriques
+5. Étude des mélanges dans le cas d'un écoulement laminaire
 
 ## Liste des références bibliographiques
 
