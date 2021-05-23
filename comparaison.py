@@ -166,9 +166,9 @@ plt.show()
 
 
 
-def initial(n):
+def initial(n):       # crée un profil initial de concentration
     C0 = np.zeros(J)
-    nb_lamination = n
+    nb_lamination = n # avec n subdivisions de tailles égales
     largeur_lam = J//nb_lamination
     c = 0
     for i in range(0,J-largeur_lam,largeur_lam):
@@ -181,8 +181,8 @@ def initial(n):
 
 tempsMelange = []
 
-for j in [2,4,6,10]:
-    ecarts = []
+for j in [2,4,6,10]: # affiche un graphique de l'évolution de l'écart-type
+    ecarts = []      # pour différents nombres de subdivisions
     iterations,C_tous_n = schema_explicite(initial(j))
     for i in range(len(C_tous_n[0,:])):
         ecarts.append(ecart_type(C_tous_n[:,i]))
